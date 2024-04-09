@@ -1,0 +1,25 @@
+@media screen and (max-width: 400px) {
+    #game-board button{
+        width: 1em;
+        height: 1em;
+    }
+    #players{
+        justify-content: flex-start;
+        gap: 1em;
+    }
+    #players li{
+        display: block;
+    }
+    #player button{
+        width: 1em;
+    }
+    .player{
+        padding: .2rem;
+    }
+    .player-name{
+        text-align: left;
+    }
+    .player input{
+        width: 8rem;
+    }
+}
